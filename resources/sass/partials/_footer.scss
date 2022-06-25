@@ -1,0 +1,42 @@
+.footer-top {
+    background-image: url("/images/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    .link-list {
+      display: flex;
+  
+      &__col {
+        margin-right: 3rem;
+      }
+    }
+  
+    li {
+      color: grey;
+  
+      &:hover {
+        color: #0282f9;
+        cursor: pointer;
+      }
+    }
+  
+    img {
+      width: 350px;
+    }
+  }
+  
+  .footer-bottom {
+    background-color: #303030;
+    height: 150px;
+  
+    .social-links,
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      li {
+        margin: 3rem 0.5rem;
+      }
+    }
+  }
