@@ -1,0 +1,38 @@
+header {
+
+    .mini {
+        display: flex;
+        justify-content: flex-end;
+        background-color: blue;
+        a {
+            color: white;
+        }
+
+        li {
+            padding: 0 0.5rem;
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        
+        li {
+            padding: 0 1rem;
+
+            &.active {
+                border-bottom: 2px solid blue;
+            }
+        }
+    }
+
+    .jumbotron {
+        width: auto;
+        height: 350px;
+        overflow: hidden;
+        }
+        
+    }
+

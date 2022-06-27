@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('title')
-    DC Comics | HomePage
+    DC Comics | Movies
 @endsection
 
 @section('main_content')
-  Ciao, sono pagina
+    Ciao sono pagina Movies
 @endsection
