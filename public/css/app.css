@@ -55,11 +55,11 @@ header .jumbotron {
   overflow: hidden;
 }
 
-main {
+main .black-bg {
   background-color: black;
   position: relative;
 }
-main h2 {
+main .black-bg h2 {
   color: white;
   background-color: blue;
   padding: 0.4rem;
@@ -69,17 +69,64 @@ main h2 {
   top: -1rem;
   left: 305px;
 }
-main .container {
+main .black-bg .container {
   padding-top: 3rem;
 }
-main .container .comics-list {
+main .black-bg .container .comics-list {
   display: flex;
   flex-wrap: wrap;
 }
-main .container .comics-list .comic-card {
+main .black-bg .container .comics-list .comic-card {
   margin: 5px;
   width: calc(16.6666666667% - 10px);
 }
-main .container .comics-list .comic-card h3 {
+main .black-bg .container .comics-list .comic-card h3 {
   color: white;
+}
+main .black-bg .info-title {
+  color: white;
+  text-transform: uppercase;
+}
+main .black-bg .info-comic {
+  display: flex;
+  justify-content: space-between;
+}
+main .black-bg .info-comic p {
+  margin-top: 2rem;
+  width: 70%;
+}
+main .black-bg .talent-specs {
+  display: flex;
+}
+main .black-bg .talent-specs .talent {
+  width: 70%;
+}
+main .black-bg .talent-specs .talent h3 {
+  color: white;
+}
+main .black-bg .talent-specs .talent-art {
+  display: flex;
+}
+main .black-bg .talent-specs .talent-art h4 {
+  color: white;
+}
+main .black-bg .specs {
+  width: 30%;
+}
+main .black-bg .specs h3 {
+  color: white;
+}
+main .black-bg .specs .specs-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+main .black-bg .specs .specs-info h4 {
+  color: white;
+  width: 50%;
+  margin-top: 1rem;
+}
+main .black-bg .specs .specs-info p {
+  width: 50%;
+  margin-top: 1rem;
 }
