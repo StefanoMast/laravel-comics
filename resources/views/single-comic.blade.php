@@ -11,22 +11,26 @@
             <p>{{ $comics['description']}}</p>
             <img src="{{ $comics['thumb'] }}" alt="">
         </div>
-        <div class="talent-specs">
-            <div class="talent">
-                <h3>Talent</h3>
-                <div class="talent-art">
-                    <h4>art by</h4>
-                    <p>@foreach ($comics['artists'] as $item) {{$item}},
-                        
-                    @endforeach</p>
-                </div>
-                <div class="talent-written">
-                    <h4>written by</h4>
-                    <p>@foreach ($comics['writers'] as $item) {{$item}},
-                        
-                    @endforeach</p>
+    </div>
+        <div class="container-specs"> 
+            <div class="talent-specs">
+                <div class="talent">
+                    <h3>Talent</h3>
+                    <div class="talent-art">
+                        <h4>art by</h4>
+                        <p>@foreach ($comics['artists'] as $item) {{$item}},
+                            
+                        @endforeach</p>
+                    </div>
+                    <div class="talent-written">
+                        <h4>written by</h4>
+                        <p>@foreach ($comics['writers'] as $item) {{$item}},
+                            
+                        @endforeach</p>
+                    </div>
                 </div>
             </div>
+        
             <div class="specs">
                 <h3>Specs</h3>
                 <div class="specs-info">
@@ -37,6 +41,7 @@
                     <h4>On Sale Date</h4>
                     <p>{{$comics['sale_date']}}</p>
                 </div>
+            </div>
         </div>
-    </div>
+   
 @endsection

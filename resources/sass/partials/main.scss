@@ -22,68 +22,97 @@ main {
                 .comic-card {
                     margin: 5px;
                     width: calc(100%/6 - 10px);
-
-                    h3 {
-                        color: white;
-                    }
-                }
-            }
-        }
-
-        .info-title {
-            color: white;
-            text-transform: uppercase;
-        }
-
-        .info-comic {
-            display:flex;
-            justify-content: space-between;
-
-            p {
-                margin-top: 2rem;
-                width: 70%;
-            }
-        }
-
-        .talent-specs {
-            display: flex;
-
-            .talent {
-                width: 70%;
-                h3 {
-                    color: white;
-                }
-            }
-            .talent-art {
-                
-                display: flex;
-
-                h4 {
-                    color: white;
-                    
-                }
-            }
-        }
-        .specs {
-            width: 30%;
-            h3 {
-                color:white;
-            }
-            .specs-info {
-                display:flex;
-                flex-wrap: wrap;
-                justify-content: flex-end;
-                h4 {
-                    color: white;
-                    width: 50%;
-                    margin-top: 1rem;
-                }
-
-                p {
-                    width: 50%;
-                    margin-top: 1rem;
                 }
             }
         }
     }
+
+        .info-title {
+            text-transform: uppercase;
+            margin-top: 1rem;
+        }
+
+        .info-comic {
+            display:flex;
+
+            p {
+                margin-top: 2rem;
+                width: 70%;
+                color: black;
+            }
+
+            img {
+                margin: auto;
+            }
+        }
+        
+        .container-specs {
+            display: flex;
+            background-color: lightblue;
+            padding: 0 305px;
+            margin-top: 2rem;
+
+            .talent-specs {
+                width: 70%;
+                margin: auto;
+    
+                p {
+                    color: black;
+                }
+                
+                .talent {
+                    width: 70%;
+                }
+                .talent-art {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+    
+                    h4 {
+                        width: 30%;
+                        margin: 1rem 0;
+                    }
+
+                    p {
+                        width: 69%;
+                    }
+                }
+    
+                .talent-written {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+    
+                    h4 {
+                        width: 30%;
+                        margin: 1rem 0;
+                    }
+
+                    p {
+                        width: 69%;
+                    }
+                }
+            }
+            .specs {
+                width: 30%;
+                margin-left: 1.3rem;
+    
+                .specs-info {
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-end;
+                    h4 {
+                        width: 50%;
+                        margin-top: 1rem;
+                    }
+    
+                    p {
+                        width: 50%;
+                        margin-top: 1rem;
+                        color: black;
+                    }
+                }
+            }
+        }
+        
 }

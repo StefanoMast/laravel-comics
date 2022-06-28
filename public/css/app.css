@@ -80,53 +80,76 @@ main .black-bg .container .comics-list .comic-card {
   margin: 5px;
   width: calc(16.6666666667% - 10px);
 }
-main .black-bg .container .comics-list .comic-card h3 {
-  color: white;
-}
-main .black-bg .info-title {
-  color: white;
+main .info-title {
   text-transform: uppercase;
+  margin-top: 1rem;
 }
-main .black-bg .info-comic {
+main .info-comic {
   display: flex;
-  justify-content: space-between;
 }
-main .black-bg .info-comic p {
+main .info-comic p {
   margin-top: 2rem;
   width: 70%;
+  color: black;
 }
-main .black-bg .talent-specs {
+main .info-comic img {
+  margin: auto;
+}
+main .container-specs {
   display: flex;
+  background-color: lightblue;
+  padding: 0 305px;
+  margin-top: 2rem;
 }
-main .black-bg .talent-specs .talent {
+main .container-specs .talent-specs {
+  width: 70%;
+  margin: auto;
+}
+main .container-specs .talent-specs p {
+  color: black;
+}
+main .container-specs .talent-specs .talent {
   width: 70%;
 }
-main .black-bg .talent-specs .talent h3 {
-  color: white;
-}
-main .black-bg .talent-specs .talent-art {
+main .container-specs .talent-specs .talent-art {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-main .black-bg .talent-specs .talent-art h4 {
-  color: white;
-}
-main .black-bg .specs {
+main .container-specs .talent-specs .talent-art h4 {
   width: 30%;
+  margin: 1rem 0;
 }
-main .black-bg .specs h3 {
-  color: white;
+main .container-specs .talent-specs .talent-art p {
+  width: 69%;
 }
-main .black-bg .specs .specs-info {
+main .container-specs .talent-specs .talent-written {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container-specs .talent-specs .talent-written h4 {
+  width: 30%;
+  margin: 1rem 0;
+}
+main .container-specs .talent-specs .talent-written p {
+  width: 69%;
+}
+main .container-specs .specs {
+  width: 30%;
+  margin-left: 1.3rem;
+}
+main .container-specs .specs .specs-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-main .black-bg .specs .specs-info h4 {
-  color: white;
+main .container-specs .specs .specs-info h4 {
   width: 50%;
   margin-top: 1rem;
 }
-main .black-bg .specs .specs-info p {
+main .container-specs .specs .specs-info p {
   width: 50%;
   margin-top: 1rem;
+  color: black;
 }
